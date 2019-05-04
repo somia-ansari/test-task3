@@ -1,0 +1,56 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #58d1de, #abd483)
+}
+div#form {
+    position: absolute;
+    background-color: rgba(194, 241, 226, 0.397);
+    top: 120px;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    padding: 20px;
+    box-shadow: grey 0px 0px 5px;
+    border-radius: 8px;
+}
+
+form {
+    font-family: calibri;
+}
+button {
+    background-color: #43a7bb;
+    border-radius: 3px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;   
+    border-color: transparent;
+    margin-top: 15px;
+    margin: 10px;
+}
+#forgot {
+    margin-left: 30px;
+}
+label,input {
+    display: block;
+    margin: 10px;
+}
+input {
+    width: 350px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+input:hover {
+    border-color: 0px 0px 8px lightblue;
+    background-color: #f4fdeb;
+}
+button:hover {
+    background-color: #82bd40;
+    cursor: pointer;
+}
+input:active {
+    border-color: 0px 0px 8px lightblue;
+    background-color: #f4fdeb;
+    font-family: calibri;
+}
